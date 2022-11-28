@@ -1,0 +1,10 @@
+/// Shows a animated dragable container.
+///
+/// It contains a square in the middle containing an image. The square starts to move
+/// in the direction of the first swipe and keeps bouncing off the walls of the page. The
+/// direction of the movement can be changed with further swipes. If the square is clicked at
+/// any point while moving, the image changes to another random image which should be loaded
+/// from the internet.
+library animated_container;
+
+export 'view/view.dart';
