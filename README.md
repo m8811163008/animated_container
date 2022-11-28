@@ -8,7 +8,7 @@ image changes to another random image which should be loaded from the internet
 # how we solve
 We used cubit to manage background image change when we tap on container and responsive image quality on different screens size.
 
-![sample_gif](assets/sample.gif)
+![sample_gif](https://raw.githubusercontent.com/m8811163008/animated_container/main/assets/sample.gif)
 
 After searching through the internet and animation cookbooks an answer found that I managed to optimize it for presented problem.
 
