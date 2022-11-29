@@ -10,11 +10,11 @@ We used cubit to manage background image change when we tap on container and res
 
 ![sample_gif](https://raw.githubusercontent.com/m8811163008/animated_container/main/assets/sample.gif)
 
-After searching through the internet and animation cookbooks an answer found that I managed to optimize it for presented problem.
+After searching through the internet and flutter animation cookbooks an answer found that I managed to optimize it for presented problem.
 
 In order to get the position of where we swap we use [GestureDetector] widget with `onPanUpdate` and `onPanEnd` properties.
 
-To make the ball move to where we tap on the screen, we first need to find the slope between where the dot currently is on the screen and where we tapped.
+To make the ball move to where we swap on the screen, we first need to find the slope between where the dot currently is on the screen and where we swap.
 
 Given two points with coordinates x1, y1 and x2, y2, the slope between them is given by the formula (y2-y1)/(x2-x1). HOWEVER, since the y-coordinate increases as you move down the screen (which is the opposite of a normal graph in math class), we’ll have to change the signs of the y-coordinates.
 ![scope1](assets/scope1.png)
